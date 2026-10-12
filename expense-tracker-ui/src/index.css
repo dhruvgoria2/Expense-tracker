@@ -73,3 +73,32 @@ button { padding:8px 14px; border:none; border-radius:8px; background:var(--purp
 .icon-btn.primary { background: var(--purple); color: #fff; border-color: var(--purple); }
 .icon-btn.primary:hover { background: #6a1fd6; }
 .icon-btn svg { width: 18px; height: 18px; }
+
+body.dark {
+  background: #0f1117;
+  color: #e8e8f0;
+}
+
+body.dark .main { background: #0f1117; }
+
+body.dark .card {
+  background: #1a1d27;
+  color: #e8e8f0;
+  border-color: #2a2d3a;
+}
+
+body.dark .page-title,
+body.dark h1,
+body.dark h2,
+body.dark h3 { color: #e8e8f0; }
+
+body.dark input,
+body.dark select,
+body.dark textarea {
+  background: #232736;
+  color: #e8e8f0;
+  border-color: #2a2d3a;
+}
+
+body.dark th,
+body.dark td { color: #e8e8f0; border-color: #2a2d3a; }
