@@ -6,7 +6,7 @@ import {
 } from "recharts";
 import api from "../api/axios";
 import StatCard from "../components/StatCard";
-import { formatINR } from "../utils/formatcurrency";
+import { formatINR } from "../utils/formatCurrency";
 
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 const PIE_COLORS = ["#7c3aed", "#06b6d4", "#10b981", "#f59e0b", "#ef4444", "#3b82f6", "#ec4899"];

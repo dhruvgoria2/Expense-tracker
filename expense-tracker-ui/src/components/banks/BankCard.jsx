@@ -1,5 +1,5 @@
 import React from "react";
-import { formatINR } from "../../utils/formatcurrency";
+import { formatINR } from "../../utils/formatCurrency";
 
 export default function BankCard({ bankName, accountType, balance, accountNumber, themeColor }) {
   return (

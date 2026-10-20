@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import api from "../../api/axios";
 import StatCard from "../StatCard";
 import BankAccountsList from "./BankAccountsList";
-import { formatINR } from "../../utils/formatcurrency";
+import { formatINR } from "../../utils/formatCurrency";
 
 const COLORS = [
   "linear-gradient(135deg, #004b93 0%, #0072bc 100%)",

@@ -1,6 +1,6 @@
 import React from "react";
 import BankCard from "./BankCard";
-import { formatINR } from "../../utils/formatcurrency";
+import { formatINR } from "../../utils/formatCurrency";
 
 export default function BankAccountsList({ accounts = [] }) {
   const total = accounts.reduce((sum, a) => sum + (Number(a.balance) || 0), 0);
