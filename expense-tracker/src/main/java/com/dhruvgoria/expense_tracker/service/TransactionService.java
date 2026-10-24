@@ -20,8 +20,11 @@ public class TransactionService {
         if (transaction.getAmount() <= 0) {
             throw new IllegalArgumentException("Amount must be greater than zero");
         }
+        if (transaction.getDate() == null) {
+            transaction.setDate(LocalDate.now());
+        }
 
-        transaction.setDate(LocalDate.now());
+
 
         // 🔑 Binds the transaction to the user account in the database
         transaction.setUser(currentUser);
